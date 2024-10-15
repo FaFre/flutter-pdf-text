@@ -1,3 +1,7 @@
+## 0.7.0
+
+* Upgraded build files
+
 ## 0.6.0
 
 * Improved null safety
