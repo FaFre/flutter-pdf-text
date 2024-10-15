@@ -23,7 +23,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: dev.aluc.pdf_text
+        package: me.movenext.flutter_pdf_text
         pluginClass: PdfTextPlugin
       ios:
         pluginClass: PdfTextPlugin

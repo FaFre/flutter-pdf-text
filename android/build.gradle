@@ -1,4 +1,4 @@
-group 'dev.aluc.pdf_text'
+group 'me.movenext.flutter_pdf_text'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -26,6 +26,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'me.movenext.flutter_pdf_text'
     compileSdkVersion 34
 
     compileOptions {

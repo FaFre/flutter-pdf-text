@@ -1,5 +1,4 @@
-package dev.aluc.pdf_text
-
+package me.movenext.flutter_pdf_text
 
 import android.os.Handler
 import android.os.Looper
