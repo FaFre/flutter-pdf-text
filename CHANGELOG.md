@@ -1,3 +1,7 @@
+## 0.8.0
+
+* Upgraded build files
+
 ## 0.7.0
 
 * Upgraded build files
