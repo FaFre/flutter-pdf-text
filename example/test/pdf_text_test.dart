@@ -76,7 +76,7 @@ void main() async {
         expect(await doc.text, textMatches(page));
         expect(doc.pages.length, 1);
         expect(await doc.pages.first.text, textMatches(page));
-        expect(TestDocInfo.fromPDFDocInfo(doc.info), info);
+        expect(TestDocInfo.fromPDFDocInfo(doc.info as PDFDocInfo), info);
       });
 
       fromPath.deleteFile();
@@ -115,7 +115,7 @@ void main() async {
         expect(doc.pages.length, 2);
         expect(await doc.pageAt(1).text, textMatches(page1));
         expect(await doc.pageAt(2).text, textMatches(page2));
-        expect(TestDocInfo.fromPDFDocInfo(doc.info), info);
+        expect(TestDocInfo.fromPDFDocInfo(doc.info as PDFDocInfo), info);
         expect(await doc.text, textMatches([...page1, ...page2]));
       });
 
