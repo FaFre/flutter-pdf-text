@@ -1,3 +1,7 @@
+## 0.8.1
+
+* Fix gradle repositories
+
 ## 0.8.0
 
 * Upgraded build files
