@@ -1,3 +1,7 @@
+## 0.9.0
+
+* Drop pre-Flutter-1.12 support
+
 ## 0.8.1
 
 * Fix gradle repositories
